@@ -30,6 +30,7 @@ app.get("/app/", (req, res, next) => {
 // CREATE a new user (HTTP method POST) at endpoint /app/new/
 
 app.post("/app/new/user", (req, res, next) => {
+	console.log(req.body);
 	var data = {
 		user: req.body.user,
 		email: req.body.email,
