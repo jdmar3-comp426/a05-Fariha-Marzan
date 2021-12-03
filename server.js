@@ -6,7 +6,7 @@ var db = require("./database.js")
 // Require md5 MODULE
 var md5 = require("md5")
 //Require cors module
-const cors = require("md5")
+const cors = require("cors")
 // Make Express use its own built-in body parser
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
